@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title>hello</title>
-      <link href="/2018/04/02/hello/"/>
-      <url>/2018/04/02/hello/</url>
-      <content type="html"><![CDATA[<p>##个人记录专用</p>]]></content>
-      
-      
-    </entry>
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[hello]]></title>
+    <url>%2F2018%2F04%2F02%2Fhello%2F</url>
+    <content type="text"><![CDATA[##个人记录专用##]]></content>
+  </entry>
 </search>
