@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.ddsec.tk/"/>
-  <updated>2018-04-02T16:03:40.928Z</updated>
+  <updated>2018-04-02T16:06:34.359Z</updated>
   <id>http://www.ddsec.tk/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="http://www.ddsec.tk/2018/04/02/hello/"/>
     <id>http://www.ddsec.tk/2018/04/02/hello/</id>
     <published>2018-04-02T15:58:18.000Z</published>
-    <updated>2018-04-02T16:03:40.928Z</updated>
+    <updated>2018-04-02T16:06:34.359Z</updated>
     
-    <content type="html"><![CDATA[<p>##个人记录专用##</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="个人记录专用"><a href="#个人记录专用" class="headerlink" title="个人记录专用"></a>个人记录专用</h2>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;##个人记录专用##&lt;/p&gt;
-
+        &lt;h2 id=&quot;个人记录专用&quot;&gt;&lt;a href=&quot;#个人记录专用&quot; class=&quot;headerlink&quot; title=&quot;个人记录专用&quot;&gt;&lt;/a&gt;个人记录专用&lt;/h2&gt;
       
     
     </summary>
