@@ -90,17 +90,17 @@
 
 
 
-<meta name="description" content="AV.initialize(&quot;7VH9kN2edbIrBxfBsIexxsk5-gzGzoHsz&quot;, &quot;DxzFlm9Yy7LeKdxHDG8Co0fq&quot;);    var time=0   var title=&quot;&quot;   var url=&quot;&quot;   var query = new AV.Query(&apos;Counter&apos;);//表名   query.notEqualTo(&apos;id&apos;,0); //id不为">
+<meta name="description" content="AV.initialize(&quot;7VH9kN2edbIrBxfBsIexxsk5-gzGzoHsz&quot;, &quot;DxzFlm9Yy7LeKdxHDG8Co0fq&quot;); //需要写上leancloud的key    var time=0   var title=&quot;&quot;   var url=&quot;&quot;   var query = new AV.Query(&apos;Counter&apos;);//表名   query.notEq">
 <meta property="og:type" content="website">
 <meta property="og:title" content="ddsec&#39;s Blog">
 <meta property="og:url" content="http://www.ddsec.tk/count/index.html">
 <meta property="og:site_name" content="ddsec&#39;s Blog">
-<meta property="og:description" content="AV.initialize(&quot;7VH9kN2edbIrBxfBsIexxsk5-gzGzoHsz&quot;, &quot;DxzFlm9Yy7LeKdxHDG8Co0fq&quot;);    var time=0   var title=&quot;&quot;   var url=&quot;&quot;   var query = new AV.Query(&apos;Counter&apos;);//表名   query.notEqualTo(&apos;id&apos;,0); //id不为">
+<meta property="og:description" content="AV.initialize(&quot;7VH9kN2edbIrBxfBsIexxsk5-gzGzoHsz&quot;, &quot;DxzFlm9Yy7LeKdxHDG8Co0fq&quot;); //需要写上leancloud的key    var time=0   var title=&quot;&quot;   var url=&quot;&quot;   var query = new AV.Query(&apos;Counter&apos;);//表名   query.notEq">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-03T13:27:55.660Z">
+<meta property="og:updated_time" content="2018-04-03T14:29:57.900Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ddsec&#39;s Blog">
-<meta name="twitter:description" content="AV.initialize(&quot;7VH9kN2edbIrBxfBsIexxsk5-gzGzoHsz&quot;, &quot;DxzFlm9Yy7LeKdxHDG8Co0fq&quot;);    var time=0   var title=&quot;&quot;   var url=&quot;&quot;   var query = new AV.Query(&apos;Counter&apos;);//表名   query.notEqualTo(&apos;id&apos;,0); //id不为">
+<meta name="twitter:description" content="AV.initialize(&quot;7VH9kN2edbIrBxfBsIexxsk5-gzGzoHsz&quot;, &quot;DxzFlm9Yy7LeKdxHDG8Co0fq&quot;); //需要写上leancloud的key    var time=0   var title=&quot;&quot;   var url=&quot;&quot;   var query = new AV.Query(&apos;Counter&apos;);//表名   query.notEq">
 
 
 
@@ -171,7 +171,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">关注网络安全</p>
       
   </div>
 
@@ -312,8 +312,9 @@
       <div class="post-body">
         
         
-          <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
-<script>AV.initialize("7VH9kN2edbIrBxfBsIexxsk5-gzGzoHsz", "DxzFlm9Yy7LeKdxHDG8Co0fq");</script>
+          <p><div id="Top10"></div></p>
+<script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+<script>AV.initialize("7VH9kN2edbIrBxfBsIexxsk5-gzGzoHsz", "DxzFlm9Yy7LeKdxHDG8Co0fq"); //需要写上leancloud的key</script>
 <script type="text/javascript">
   var time=0
   var title=""
@@ -328,15 +329,14 @@
       time=result.time;  //阅读次数
       title=result.title; //文章标题
       url=result.url;     //文章url
-      var content="<p>"+"<font color='#0477ab'>"+"【阅读次数:"+time+"】"+"<a href='"+"https://ddsec.github.io/"+url+"'>"+title+"</font>"+"</a>"+"</p>";
-      // document.write("<a href='"+"https://ddsec.github.io/"+url+"'>"+title+"</a>"+"    Readtimes:"+time+"<br>");
-      document.getElementById("heheda").innerHTML+=content
+      var content="<p>"+"<font color='#0477ab'>"+"【阅读次数:"+time+"】"+"<a href='"+"http://ddsec.github.io/"+url+"'>"+title+"</font>"+"</a>"+"</p>";
+      // document.write("<a href='"+"http://ddsec.github.io/"+url+"'>"+title+"</a>"+"    Readtimes:"+time+"<br>");
+      document.getElementById("Top10").innerHTML+=content
     }
   }, function (error) {
     console.log("error");
   });
 </script>
-
         
       </div>
       

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ddsec&#39;s Blog</title>
   
-  
+  <subtitle>关注网络安全</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.ddsec.tk/"/>
