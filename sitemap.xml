@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.ddsec.tk/404.html</loc>
+    
+    <lastmod>2018-04-03T03:41:02.603Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.ddsec.tk/2018/04/02/hello/</loc>
     
     <lastmod>2018-04-02T16:06:34.359Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://www.ddsec.tk/categories/index.html</loc>
     
     <lastmod>2018-04-02T09:39:39.572Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.ddsec.tk/404.html</loc>
-    
-    <lastmod>2018-04-02T08:48:49.392Z</lastmod>
     
   </url>
   
